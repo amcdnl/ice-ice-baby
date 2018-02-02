@@ -1,0 +1,36 @@
+{
+  "name": "ice-ice-baby",
+  "version": "1.0.0",
+  "description": "VSCode Theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://amcdnl@github.com/amcdnl/ice-ice-baby.git"
+  },
+  "keywords": [
+    "vscode",
+    "theme"
+  ],
+  "author": "Austin McDaniel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amcdnl/ice-ice-baby/issues"
+  },
+  "homepage": "https://github.com/amcdnl/ice-ice-baby#readme",
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ice Ice Baby",
+        "uiTheme": "vs-dark",
+        "path": "./theme.json"
+      }
+    ]
+  }
+}
